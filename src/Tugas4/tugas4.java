@@ -9,12 +9,12 @@ public class tugas4 {
         //        TUGAS : BIKIN SEGITIGA TERBALIK
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int n;
+        int jBaris;
 
         System.out.println("Masukkan baris : ");
-        n = Integer.parseInt(br.readLine());
+        jBaris = Integer.parseInt(br.readLine());
 
-        for (int i = n; i >= 1; i--) {
+        for (int i = jBaris; i >= 1; i--) {
             for (int j = 0; j < i; j++) {
                 System.out.print(" * ");
             }
